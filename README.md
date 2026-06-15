@@ -51,4 +51,5 @@ Ansible will finally generate:
 ntp server 10.10.1.11 ntp server 10.10.1.12
 
 **Challenges faced**
+
 When the project was being implemented, some technical hitches arose. The project was initially tested on other platforms such as WSL (Windows Subsystem for Linux) which was failing to establish an SSH connection to the cisco catalyst 8000 network device. An alternative solution was adopted which involved redoing the project on Google Collaboratory and changed to a new router Catalyst 9000. The results were impressive without any connectivity issues. The main lesson learnt was that network troubleshooting is a very crucial technical skill to have. A specialist must be willing to adopt different solutions to ensure a system is fully functional.
